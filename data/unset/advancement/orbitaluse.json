@@ -1,0 +1,29 @@
+
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{orbital:true}"
+                    }
+                },
+                "player": {
+                    "location": {
+                        "can_see_sky": true,
+                        "position": {
+                            "y": {
+                                "min": 40
+                            }
+                        },
+                        "dimension": "minecraft:overworld"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "unset:orbital/orbitalfirst"
+    }
+}

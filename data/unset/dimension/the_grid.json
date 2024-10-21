@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "biome_source": {
+      "biomes": [
+        {
+          "biome": "unset:desolation",
+          "parameters": {
+            "continentalness": {
+              "min": 0,
+              "max": 0
+            },
+            "depth": {
+              "min": 0,
+              "max": 0
+            },
+            "erosion": {
+              "min": 0,
+              "max": 0
+            },
+            "humidity": {
+              "min": 0,
+              "max": 0
+            },
+            "temperature": {
+              "min": 0,
+              "max": 0
+            },
+            "weirdness": {
+              "min": 0,
+              "max": 0.5
+            },
+            "offset": 0
+          }
+        },
+        {
+          "biome": "unset:corrupted_forest",
+          "parameters": {
+            "continentalness": {
+              "min": 0,
+              "max": 0
+            },
+            "depth": {
+              "min": 0,
+              "max": 0
+            },
+            "erosion": {
+              "min": 0,
+              "max": 0
+            },
+            "humidity": {
+              "min": 0,
+              "max": 0
+            },
+            "temperature": {
+              "min": 0,
+              "max": 0
+            },
+            "weirdness": {
+              "min": 0,
+              "max": 0
+            },
+            "offset": 0
+          }
+        },
+        {
+          "biome": "unset:corrupted_plain",
+          "parameters": {
+            "continentalness": {
+              "min": 0,
+              "max": 0
+            },
+            "depth": {
+              "min": 0,
+              "max": 0
+            },
+            "erosion": {
+              "min": 0,
+              "max": 0
+            },
+            "humidity": {
+              "min": 0,
+              "max": 0
+            },
+            "temperature": {
+              "min": 0,
+              "max": 0
+            },
+            "weirdness": {
+              "min": 0,
+              "max": 0
+            },
+            "offset": 0
+          }
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "seed": 286956243,
+    "settings": "unset:epsilon",
+    "type": "minecraft:noise"
+  }
+}
